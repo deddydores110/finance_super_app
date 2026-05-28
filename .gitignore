@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+dist
+.env
+.env.local
+.env.production
+coverage
+auth_info
+baileys_auth
+.DS_Store
+backend/node_modules
+frontend/node_modules
+backend/auth_info
+backend/baileys_auth
