@@ -14,6 +14,12 @@ const {
 const PORT =
   process.env.PORT || 3005;
 
+const cors = require('cors');
+
+app.use(cors({
+  origin: '*'
+}));
+
 async function startServer() {
 
   try {

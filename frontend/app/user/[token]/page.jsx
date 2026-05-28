@@ -83,7 +83,7 @@ export default function UserDashboard() {
 
       const res =
         await axios.get(
-          `http://localhost:3005/auth/dashboard/${token}`
+          `${process.env.NEXT_PUBLIC_API_URL}/auth/dashboard/${token}`
         );
 
       if (
